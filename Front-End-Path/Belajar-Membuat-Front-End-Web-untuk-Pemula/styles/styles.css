@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins',sans-serif;
+
+}
+.title-header{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+.title-header h1{
+    font-size: 5em;
+    color: #351199;
+}
+
+
+button {
+    cursor: pointer;
+}
+
+.gotolibrary button {
+    margin-top: 20px;
+    width: 10%;
+    height: 40px;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: #b6b5b5;
+}
+
+.gotolibrary button:hover{
+    background-color: white;
+
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper .container {
+    width: 1024px;
+    border-radius: 8px;
+    margin: 20px;
+    background: #e4e3e3;
+    padding: 16px;
+    flex-grow: 1;
+    height: auto;
+}
+
+.item{
+    margin-top: 16px;
+    padding: 12px 24px 12px 24px;
+    border-radius: 16px;
+    background: white;
+    display: flex;
+    align-items: center;
+}
+
+
+.check-button{
+    background: url('../assets/check_circle_black.svg');
+    background-size: contain;
+    width: 2.5em;
+    height: 2.5em;
+    border: none;
+    margin-left: 16px;
+    border:none;
+}
+
+.check-button:hover{
+    background: url('../assets/check_circle_black_hover.svg');
+    background-size: contain;
+}
+
+.delete-button{
+    background: url('../assets/delete_black.svg');
+    background-size: contain;
+    width: 2.5em;
+    height: 2.5em;
+    margin-left: auto;
+    border: none;
+}
+
+.delete-button:hover{
+    background: url('../assets/delete_black_hover.svg');
+    background-size: contain;
+}
+
+.undo-button{
+    background:url('../assets/restore_black_24dp.svg');
+    background-size: contain;
+    width: 2.5em;
+    height: 2.5em;
+    border: none;
+    margin-left: 16px;
+    border:none;
+}
+
+.undo-button:hover{
+    background: url('../assets/restore_black_24dp_hover.svg');
+    background-size: contain;
+}
